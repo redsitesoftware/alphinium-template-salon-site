@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "Lumière Studio",
+    "slug": "salon-site",
+    "version": "1.0.0",
+    "backgroundColor": "#170C26",
+    "primaryColor": "#A065D5",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "web": {
+      "bundler": "metro",
+      "output": "single",
+      "name": "Lumière Studio",
+      "description": "Luxury beauty salon booking system",
+      "themeColor": "#9333EA",
+      "lang": "en"
+    },
+    "android": {
+      "package": "com.redsitesoftware.salonSite"
+    },
+    "ios": {
+      "bundleIdentifier": "com.redsitesoftware.salonSite"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "3df5e048-50c8-41ea-909a-0e4dccf97387"
+      }
+    },
+    "owner": "zx10r06",
+    "description": "Luxury beauty salon booking system"
+  }
+}
